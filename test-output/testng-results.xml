@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62775" started-at="2018-05-05T13:53:59Z" finished-at="2018-05-05T13:55:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62775" started-at="2018-05-05T13:53:59Z" finished-at="2018-05-05T13:55:02Z">
+      <class name="test.Trello">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.Trello@39aeed2f]" name="beforeTest" is-config="true" duration-ms="23700" started-at="2018-05-05T13:53:59Z" finished-at="2018-05-05T13:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="getBaseURL()[pri:0, instance:test.Trello@39aeed2f]" name="getBaseURL" is-config="true" duration-ms="25267" started-at="2018-05-05T13:54:23Z" finished-at="2018-05-05T13:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURL -->
+        <test-method status="PASS" signature="addListAndCard()[pri:4, instance:test.Trello@39aeed2f]" name="addListAndCard" duration-ms="5591" started-at="2018-05-05T13:54:48Z" finished-at="2018-05-05T13:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addListAndCard -->
+        <test-method status="PASS" signature="getBaseURL()[pri:0, instance:test.Trello@39aeed2f]" name="getBaseURL" is-config="true" duration-ms="5740" started-at="2018-05-05T13:54:54Z" finished-at="2018-05-05T13:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURL -->
+        <test-method status="PASS" signature="ArchieveList()[pri:5, instance:test.Trello@39aeed2f]" name="ArchieveList" duration-ms="2452" started-at="2018-05-05T13:55:00Z" finished-at="2018-05-05T13:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArchieveList -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.Trello@39aeed2f]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-05T13:55:02Z" finished-at="2018-05-05T13:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.Trello -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
